@@ -1,0 +1,1 @@
+# swiss-legal-agentic-rag
