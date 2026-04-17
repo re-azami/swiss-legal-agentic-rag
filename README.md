@@ -157,10 +157,10 @@ full modern LLM stack.
 swiss-legal-agentic-rag/
 ├── 📄 README.md                          # this file
 ├── 📓 notebooks/
-│   ├── 1-wheels-and-models.ipynb         # 📦 utility: packages + bge-m3
-│   ├── 2-corpus.ipynb                    # 🧬 utility: chunk + encode
-│   ├── 3-lancedb.ipynb                   # 🔍 utility: hybrid index
-│   ├── 4-data-exploration.ipynb          # 📊 portfolio: data findings
+│   ├── utility-swiss-legal-wheels-and-models.ipynb         # 📦 utility: packages + bge-m3
+│   ├── utility-swiss-legal-corpus.ipynb                    # 🧬 utility: chunk + encode
+│   ├── utility-swiss-legal-lancedb.ipynb                   # 🔍 utility: hybrid index
+│   ├── swiss-legal-data-exploration.ipynb          # 📊 portfolio: data findings
 │   └── 5-retrieval.ipynb                 # 🎯 submission: hybrid search
 └── 📚 docs/
 ├── architecture.md                   # detailed design notes
