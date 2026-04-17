@@ -18,6 +18,7 @@ a paragraph-aware matcher lifts the ceiling to **98%**. 🚀
 Four Kaggle notebooks, each producing a utility artifact that downstream
 notebooks attach. This design makes the expensive stages reproducible once
 and reusable everywhere.
+```text
 ┌─────────────────────────────────┐
 │ 📦 1. utility-swiss-legal-      │  Downloads wheels + bge-m3 model.
 │       wheels-and-models         │  🖥️ CPU, ~15 min. No internet
@@ -47,7 +48,7 @@ and reusable everywhere.
 │                                 │  graph-aware matching. Writes
 │                                 │  submission.csv. 🏁
 └─────────────────────────────────┘
-
+```
 
 ## 🛠️ Technical stack
 
@@ -150,9 +151,9 @@ full modern LLM stack.
 
 📧 **re.azami@gmail.com**
 
-🏠 Remote, 🏢 hybrid, or 🌍 on-site — all welcome.
-
 ## 📁 Repository structure
+
+```text
 swiss-legal-agentic-rag/
 ├── 📄 README.md                          # this file
 ├── 📓 notebooks/
@@ -164,6 +165,7 @@ swiss-legal-agentic-rag/
 └── 📚 docs/
 ├── architecture.md                   # detailed design notes
 └── ceiling-analysis.md               # why F1 caps at 98%
+```
 
 ## 📜 License
 
